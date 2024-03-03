@@ -1,4 +1,3 @@
-ask
 const axios = require('axios');
 
 const Prefixes = [
