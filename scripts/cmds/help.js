@@ -3,13 +3,13 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 🐐 | 𝑴𝑨𝑫𝑨𝑹𝑨 V2 ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
+const doNotDelete = "[ 🌐 | 𝑴𝑨𝑫𝑨𝑹𝑨 V2 ]"; // changing this wont change the goatbot V2 of list cmd it is just a decoyy
 
 module.exports = {
   config: {
     name: "help",
     version: "1.17",
-    author: "𝑹𝒊𝒏𝒏𝒈𝒂𝒏", // original author Kshitiz 
+    author: "𝗘𝗻𝗼𝗰𝗸", // original author Kshitiz 
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -51,7 +51,7 @@ module.exports = {
 
           const names = categories[category].commands.sort();
           for (let i = 0; i < names.length; i += 3) {
-            const cmds = names.slice(i, i + 1).map((item) => `✰${item}☆`);
+            const cmds = names.slice(i, i + 1).map((item) => `🌹${item}🌹`);
             msg += `\n│ ${cmds.join(" ".repeat(Math.max(1, 10 - cmds.join("").length)))}`;
           }
 
@@ -62,7 +62,7 @@ module.exports = {
       const totalCommands = commands.size;
       msg += `\n𝒋𝒆 𝒅𝒊𝒔𝒑𝒐𝒔𝒆 𝒅𝒆  ${totalCommands} 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔\n\n`;
       msg += `𝑻𝑨𝑷𝑬 ${prefix} 𝗵𝗲𝗹𝗽 + 𝒏𝒐𝒎 𝒅𝒆 𝒍𝒂 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆 𝒑𝒐𝒖𝒓 𝒆𝒏 𝒗𝒐𝒊𝒓 𝒍𝒆𝒔 𝒊𝒏𝒇𝒐𝒔\n\n`;
-      msg += `🐐 | MADARA V3`; // its not decoy so change it if you want 
+      msg += `🌐 | 𝗘𝗻𝗼𝗰𝗸 V16`; // its not decoy so change it if you want 
 
       const helpListImages = [
         "https://i.ibb.co/7CZYTQm/image.jpg", // add image link here
