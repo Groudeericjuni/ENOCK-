@@ -8,8 +8,7 @@ const Prefixes = [
   'nemo',
   'ai',
   'ask',
-'madara'
-'enock',
+'madara',
 ];
 
 module.exports = {
@@ -42,7 +41,7 @@ module.exports = {
       const answer = response.data.answer;
 
  
-    await message.reply({ body: `✦𝗠𝗔𝗗𝗔𝗥𝗔✦| | 🔮
+    await message.reply({ body: `✦𝗠𝗔𝗗𝗔𝗥𝗔✦ | 🔮
 ━━━━━━━━━━━━━        
 ${answer}
 ━━━━━━━━━━━━━`,
