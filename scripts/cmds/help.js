@@ -61,7 +61,14 @@ module.exports = {
 
       const totalCommands = commands.size;
       msg += `\n𝒋𝒆 𝒅𝒊𝒔𝒑𝒐𝒔𝒆 𝒅𝒆  ${totalCommands} 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆𝒔\n\n`;
-      msg += `𝑻𝑨𝑷𝑬 ${prefix} 𝗵𝗲𝗹𝗽 + 𝒏𝒐𝒎 𝒅𝒆 𝒍𝒂 𝒄𝒐𝒎𝒎𝒂𝒏𝒅𝒆 𝒑𝒐𝒖𝒓 𝒆𝒏 𝒗𝒐𝒊𝒓 𝒍𝒆𝒔 𝒊𝒏𝒇𝒐𝒔\n\n`;
+      msg += `💡 Pour voir 𝗹𝗲𝘀 𝗶𝗻𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻𝘀 d'une commande spécifique, tapez ${prefix} 𝗵𝗲𝗹𝗽 [𝗻𝗼𝗺 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲]' 
+ - Ex: $𝗵𝗲𝗹𝗽 𝗮𝗶 
+
+ 
+ 🗂 Pour voir 𝗰𝗼𝗺𝗺𝗲𝗻𝘁 𝘂𝘁𝗶𝗹𝗶𝘀𝗲𝗿 𝘂𝗻𝗲 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲, écrivez simplement 𝗹𝗲 𝗻𝗼𝗺 𝗱𝗲 𝗹𝗮 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝗲.
+ - Ex: 𝗔𝗶
+
+ 🤖 𝗣𝗼𝘂𝗿 𝗮𝘃𝗼𝗶𝗿 𝘃𝗼𝘁𝗿𝗲 𝗽𝗿𝗼𝗽𝗿𝗲 𝗖𝗵𝗮𝘁𝗯𝗼𝘁, 𝗖𝗼𝗻𝘁𝗮𝗰𝘁𝗲𝗿 𝗺𝗼𝗻 𝗺𝗮𝗶̂𝘁𝗿𝗲 :  𝗦𝗲𝗶𝗴𝗻𝗲𝘂𝗿 𝗠𝗮𝗱𝗮𝗿𝗮 𝗨𝗰𝗵𝗶𝘄𝗮💮♨️ \n\n`;
       msg += `🌐 | 𝗘𝗻𝗼𝗰𝗸 V16`; // its not decoy so change it if you want 
 
       const helpListImages = [
